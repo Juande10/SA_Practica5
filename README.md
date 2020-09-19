@@ -17,3 +17,6 @@ Aplicar el comando `npm start` para iniciar el servidor.
 Dirigirse a la carpeta correspondiente
 Aplicar el comando `gulp --gulpfile services/gulpfile.js`
 
+# Test
+En la carpeta de bus de integracion esta la carpeta de test
+
