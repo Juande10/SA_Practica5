@@ -20,12 +20,11 @@ test('Fake Test', () => {
 
 
 describe('Pruebas para App/server', function () {
-  test('post /recibir nuevo', function (done) {
+  test('post /nuevo_pedido', function (done) {
     request(app)
-      .post('/recibir')
+      .post('/nuevo_pedido')
       .send({
-        name: 'prueba',
-        estado: 'entregada al cliente'
+        "descripcion": "Una soda",
       })
       .expect(200)
       .end(function (err, res) {
