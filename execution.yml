@@ -2,3 +2,4 @@ image: node:latest
 cache:
   paths:
     - .BusIntegracion/node_modules/
+    
